@@ -9,7 +9,7 @@ class throttle:
 
 	def __init__(self):
 		#self.bw=["5Mbit/s","4Mbit/s","3Mbit/s","2Mbit/s","1Mbit/s"]
-		self.bw=["5000Kbit/s","4000Kbit/s","3000Kbit/s","2000Kbit/s","1000Kbit/s"]
+		self.bw=["5000Kbit/s","4000Kbit/s","3000Kbit/s","2000Kbit/s","1000Kbit/s"]  //初始化网络带宽参数
 		#self.maxt=300
 	
 	def stop(self):
